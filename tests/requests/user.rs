@@ -1,6 +1,6 @@
+use blog_rs::app::App;
 use insta::{assert_debug_snapshot, with_settings};
 use loco_rs::testing;
-use blog_rs::app::App;
 use serial_test::serial;
 
 use super::prepare_data;
